@@ -15,6 +15,7 @@ fieldset {
 
 body {
   box-sizing: border-box;
+  min-width: 1440px;
 }
 
 .header {
@@ -23,7 +24,6 @@ body {
   background-position: center;
   background-size: cover;
   padding: 0 80px 0 80px;
-  min-width: 1440px;
 }
 
 .header__wrapper {
@@ -224,4 +224,68 @@ body {
 .in-elipse-icon {
   max-width: 40px;
   max-height: 40px;
+}
+
+.about-section {
+  padding: 100px 0 0 0;
+  width: 100%;
+}
+
+.about-section__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.about-section__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  max-width: 600px;
+}
+
+.about-section__title {
+  font-family: inherit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+  text-transform: uppercase;
+}
+
+.about-section__sub-title {
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155%;
+}
+
+.about-section__accent-sub-title {
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about-section__image-wrapper {
+  position: relative;
+  min-width: 600px;
+  max-height: 475px;
+}
+
+.square-transparent {
+  position: absolute;
+  top: 155px;
+  left: 390px;
+  border-radius: 5px;
+  border: 20px solid #e8c300;
+  width: 210px;
+  height: 210px;
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.5);
 }
