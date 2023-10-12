@@ -239,17 +239,17 @@ body {
   gap: 80px;
 }
 
-.about-section__title-wrapper {
+.title-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
+  gap: 10px;
   max-width: 600px;
 }
 
-.about-section__title {
+.title {
   font-family: inherit;
   font-size: 36px;
   font-style: normal;
@@ -258,7 +258,7 @@ body {
   text-transform: uppercase;
 }
 
-.about-section__sub-title {
+.sub-title {
   font-family: inherit;
   font-size: 18px;
   font-style: normal;
@@ -266,7 +266,7 @@ body {
   line-height: 155%;
 }
 
-.about-section__accent-sub-title {
+.accent-sub-title {
   font-family: inherit;
   font-size: 14px;
   font-style: normal;
@@ -391,4 +391,96 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
+}
+
+.gallery-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.gallery-section__image {
+  width: 360px;
+  height: 360px;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 100px 80px 245px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.footer__contact-form {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+
+  gap: 10px;
+  max-width: 1280px;
+}
+
+.footer__contact-input {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #e5e5e5;
+  border: 0;
+
+  color: rgba(51, 51, 51, 0.5);
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.full-width-input {
+  grid-column: span 3;
+  max-width: 1260px;
+  min-height: 100px;
+  resize: none;
+  vertical-align: top;
+}
+
+.footer__contact-addres-button__wrapper {
+  grid-column: span 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact-addres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  min-width: 640px;
+}
+
+.button-contact-form {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border: 2px solid transparent;
+  min-width: 640px;
+}
+
+.button-contact-form:hover {
+  background-color: transparent;
+  border-color: #e8c300;
+  color: #000;
 }

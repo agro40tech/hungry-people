@@ -74,14 +74,14 @@
         <!-- Секция о нас -->
         <section class="about-section">
             <div class="about-section__wrapper">
-                <div class="about-section__title-wrapper">
-                    <h3 class="about-section__title">abouts</h3>
+                <div class="title-wrapper">
+                    <h3 class="title">abouts</h3>
                     <div class="rectangle"></div>
-                    <p class="about-section__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Duis at velit maximus, molestie
                         est a,
                         tempor magna.<br /><br />
-                        <span class="about-section__accent-sub-title"> Integer ullamcorper neque eu purus euismod, ac
+                        <span class="accent-sub-title"> Integer ullamcorper neque eu purus euismod, ac
                             faucibus mauris posuere. Morbi non
                             ultrices
                             ligula.
@@ -101,10 +101,10 @@
         <section class="menu-section">
             <div class="menu-section__wrapper">
                 <!-- Заголовок меню -->
-                <div class="menu-section__title-wrapper">
-                    <h3 class="menu-section__title">delicious menu</h3>
+                <div class="title-wrapper">
+                    <h3 class="title">delicious menu</h3>
                     <div class="rectangle"></div>
-                    <p class="menu-section__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
                         velit maximus, molestie est a,
                         tempor
                         magna.</p>
@@ -341,31 +341,37 @@
             </div>
         </section>
         <!-- Секция гллереи фотографий -->
-        <section>
-            <div>
-                <img src="./images/Rectangle.png" alt="Ресторан">
-                <img src="./images/Rectangle (1).png" alt="Тлеющеии палена">
-                <img src="./images/Rectangle (2).png" alt="Столы ресторана">
-                <img src="./images/Rectangle (3).png" alt="Холл ресторана">
-            </div>
+        <section class="gallery-section">
+            <img class="gallery-section__image" src="./images/galery_1.jpg" alt="Ресторан">
+            <img class="gallery-section__image" src="./images/galery_2.jpg" alt="Тлеющеии палена">
+            <img class="gallery-section__image" src="./images/galery_3.jpg" alt="Столы ресторана">
+            <img class="gallery-section__image" src="./images/galery_4.jpg" alt="Холл ресторана">
         </section>
     </main>
 
     <!-- Контакты -->
-    <footer>
-        <div>
-            <h3>contact</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+    <footer class="footer">
+
+        <div class="title-wrapper">
+            <h3 class="title">contact</h3>
+            <div class="rectangle"></div>
+            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                molestie est a, tempor
                 magna.</p>
         </div>
-        <form action="POST">
-            <input type="text" name="name" id="Name" placeholder="Name">
-            <input type="email" name="email" id="Email" placeholder="Email">
-            <input type="tel" name="phone" id="Phone" placeholder="Phone">
-            <input type="text" name="message" id="Message" placeholder="Message">
-            <p> 5th London Boulevard, U.K.  +40 729 131 637/+40 726 458 782  office@mindblister.com</p>
-            <button>send message</button>
+        <form class="footer__contact-form">
+            <input class="footer__contact-input" type="text" name="name" id="Name" placeholder="Name">
+            <input class="footer__contact-input" type="email" name="email" id="Email" placeholder="Email">
+            <input class="footer__contact-input" type="tel" name="phone" id="Phone" placeholder="Phone">
+            <textarea class="footer__contact-input full-width-input" type="text" name="message" id="Message"
+                placeholder="Message" cols="40" rows="3"></textarea>
+            <div class="footer__contact-addres-button__wrapper">
+                <p class="footer__contact-addres"> 5th London Boulevard, U.K.  +40 729 131 637/+40 726 458 782 
+                    office@mindblister.com</p>
+                <button class="button button-fill button-contact-form">send message</button>
+
         </form>
+        </div>
     </footer>
 </body>
 
