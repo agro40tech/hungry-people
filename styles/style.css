@@ -16,6 +16,7 @@ fieldset {
 body {
   box-sizing: border-box;
   min-width: 1440px;
+  font-family: Open Sans, sans-serif;
 }
 
 .header {
@@ -32,7 +33,7 @@ body {
   grid-template-rows: min-content min-content;
   color: #fff;
   text-align: center;
-  font-family: Open Sans, sans-serif;
+  font-family: inherit;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -124,7 +125,7 @@ body {
 }
 
 .header__hero-title {
-  font-family: inherit;
+  font-family: Advent Pro;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -250,7 +251,7 @@ body {
 }
 
 .title {
-  font-family: inherit;
+  font-family: Advent Pro;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -372,7 +373,7 @@ body {
 .main-menu__link {
   text-decoration: none;
   color: #000;
-  font-family: inherit;
+  font-family: Advent Pro;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -429,7 +430,7 @@ body {
   min-height: 40px;
   padding: 10px;
   border-radius: 5px;
-  background: #e5e5e5;
+  background-color: #e5e5e5;
   border: 0;
 
   color: rgba(51, 51, 51, 0.5);
@@ -460,7 +461,7 @@ body {
   align-items: center;
   text-wrap: nowrap;
   color: rgba(51, 51, 51, 0.5);
-  font-family: Open Sans;
+  font-family: inherit;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -470,7 +471,7 @@ body {
 
 .button-contact-form {
   color: #fff;
-  font-family: Open Sans;
+  font-family: inherit;
   font-size: inherit;
   font-style: normal;
   font-weight: 700;
